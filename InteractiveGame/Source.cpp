@@ -55,7 +55,7 @@ string decision2()
 	else if (!(userChoice == "Scream" || userChoice == "scream" || userChoice == "1" || userChoice == "Release" || userChoice == "release" || userChoice == "2" || userChoice == "Stay" || userChoice == "stay" || userChoice == "3"))
 	{
 		cout << "Error, could not process request. Please enter a new answer\n";
-		userChoice = decision();
+		userChoice = decision2();
 	}
 	return userChoice;
 }
@@ -75,7 +75,7 @@ string decision3()
 	else if (!(userChoice == "Run" || userChoice == "run" || userChoice == "1" || userChoice == "Fight" || userChoice == "fight" || userChoice == "2"))
 	{
 		cout << "Error, could not process request. Please enter a new answer\n";
-		userChoice = decision();
+		userChoice = decision3();
 	}
 	return userChoice;
 }
